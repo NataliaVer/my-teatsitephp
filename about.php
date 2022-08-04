@@ -1,3 +1,7 @@
+<?php 
+  session_start();
+?>
+
 <!doctype html>
 <html lang="ua">
 <head>
@@ -9,7 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
   <title>Контактна форма</title>
 </head>
-<body>
+<body >
     <div class="container mt-5">
       <?php require "blocks/header.php" ?>
      <h3>Контактна форма</h3>
